@@ -11,7 +11,6 @@ void main()
 		if(A[i]=='\n')
 		{
 			x=i;
-			//printf("%d\n",x);
 			break;
 		}
 	}
@@ -28,7 +27,8 @@ void main()
 	}
 	
 	
-	int stat;
+	int stat=0;
+	printf("%d\n",stat);
 	for(n=0;n<=x-y;n++)
 	{
 		stat=0;
